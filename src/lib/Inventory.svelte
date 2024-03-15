@@ -4,7 +4,17 @@
 
     Tabs will resemble tabs under history window. 
  -->
+ <main>
+    <h1>
+        Inventory
+    </h1>
+</main>
 
-<h1>
-    Inventory
-</h1>
+<style>
+    main{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
