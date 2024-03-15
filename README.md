@@ -1,8 +1,11 @@
-# Svelte + Vite
+## Capsule
 
-This template should help get you started developing with Tauri and Svelte in Vite.
+### An alternative to postman. A focus on performance and only what is necessary. 
 
-## Recommended IDE Setup
+## Features
+ - Makes copies of databases when wanting to revert to older copies.
+ - Displays all databases across various products (MongoDB, MySQL, SQLite, PostgreSQL).
+ - Allows intuitive manipulation of your database's information.
+ - Completely private (no account required).
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
-
+### This is expected to take a year to accomplish. 
