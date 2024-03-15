@@ -1,0 +1,32 @@
+* {
+  color:white;
+}
+
+nav{
+  margin-left:auto;
+  margin-right:auto;
+  padding:3px 2px;
+  transition-duration: .5s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  height:45px;
+  background-color:rgb(44, 44, 44);
+}
+
+ul {
+  margin-left:15px;
+  width:20%;
+  max-width: 150px;
+  min-width:125px;
+}
+
+.list__title {
+
+} 
+
+.list__title--modify {
+  
+}

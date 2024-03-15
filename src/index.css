@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'K2D-Medium';
+    font-weight:200;
+    src: url('../dist/assets/fonts/K2D-Medium.ttf'); 
+}
+* {
+  font-family: 'K2D-Medium';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
