@@ -1,14 +1,20 @@
 <script>
+  import {invoke} from '@tauri-apps/api'; 
   import Main from './lib/Page.svelte';
   import Menu from './lib/Menu.svelte';
   import Inventory from './lib/Inventory.svelte';
   import History from './lib/History.svelte';
   let pages = [Main, Inventory, History]; 
   let current_page = 0; 
+  let tauri_value; 
+  (async ()=>{
+    tauri_value = await invoke('greet'); 
+  })()
 </script>
 
 <main>
   <Menu bind:page_counter={current_page}/>
+  {tauri_value}
   <article class:grid-form={current_page>0}>
     {#if current_page>0}
        <section></section>
